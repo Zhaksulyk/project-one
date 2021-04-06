@@ -1,0 +1,98 @@
+.section--header {
+	background-image: url('https://www.ejin.ru/wp-content/uploads/2019/05/polevye-oduvanchiki.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding: 100px 0;
+	position: relative;
+	
+}
+
+.header { 
+	text-align: center;
+}
+.header__image {
+	position: absolute;
+	bottom: 0;
+	left: -10%;
+	right: 50%;
+	z-index: 1;
+}
+.header__title {
+	font-size: 30px;
+	font-weight: normal;
+	font-family: 'Comfortaa', cursive;
+}
+.header__suptitle {
+	font-size: 50px;
+	font-weight: 700;
+	color: #3c3d3c;
+	font-family: 'Dela Gothic One', cursive;
+	font-weight: 400;
+	
+}
+.header__infotitle {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Comfortaa', cursive;
+}
+.header__infotitle span {
+	color: #278f31;
+}
+
+.banner__title {
+	font-size: 20px;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.section--blue {
+	background-color: #22c4d6;
+	padding: 100px 0;
+}
+.banner__item {
+	display: flex;
+	padding: 10px 0;
+	
+}
+.banner__item:first-child{
+	margin-left: 5px;
+}
+.banner__icon {
+	font-size: 30px;
+}
+
+.banner__txt {
+	font-size: 20px;
+	padding: 0 10px;
+	margin-top: 5px;
+}
+.banner__content {
+	padding-top: 30px;
+}
+ .butt {
+ 	display: inline-block;
+	vertical-align: top;
+	padding: 16px 40px;
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+	background-color: #fff;
+	transition: .2s linear;
+ }
+ .butt:hover{
+ 	color: #000;
+ 	background-color: #fff;
+ }
+.banner__img {
+	background-color: #fff;
+}
+@media(max-width: 990px) {
+	.header__image {
+		display: none;
+	}
+}
